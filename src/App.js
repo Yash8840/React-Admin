@@ -28,6 +28,7 @@ function App() {
           <Sidebar/>
           <main className="content">
             <Topbar />
+           //adding routes
             <Routes>
               <Route path="/" element={<Dashboard/>}/>
               <Route path="/team" element={<Team/>}/>
